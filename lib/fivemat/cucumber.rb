@@ -26,7 +26,8 @@ module Fivemat
 
     def exception(exception, status)
       @exceptions << [exception, status]
-      super
+      # TODO: fix this
+      #super
     end
 
     def after_features(features)
